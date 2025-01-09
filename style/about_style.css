@@ -1,0 +1,214 @@
+/* About Us Page Styles */
+.about-us-banner {
+    background: linear-gradient(rgba(45, 61, 51, 0.8), rgba(45, 61, 51, 0.8)), url('../images/about-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.banner-text h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+.banner-text p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+.about-us-content {
+    max-width: 1200px;
+    margin: 4rem auto;
+    padding: 0 2rem;
+}
+
+.about-us-content h2 {
+    color: #4a90e2;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.about-us-content h3 {
+    color: #4a90e2;
+    font-size: 2rem;
+    margin: 3rem 0 1.5rem;
+}
+
+.about-us-content p {
+    color: #666;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+}
+.about-us-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-us-content ul li {
+    margin: 1.5rem 0;
+    padding-left: 2rem;
+    position: relative;
+}
+
+.about-us-content ul li:before {
+    content: '→';
+    color: #4a90e2;
+    position: absolute;
+    left: 0;
+}
+
+.about-us-content ul li strong {
+    color: #2d3d33;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+.meet-the-team {
+    background-color: #fff;
+    padding: 2px 2px;
+    text-align: center;
+}
+
+.meet-the-team h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+.team-member:hover {
+    transform: translateY(-5px);
+}
+
+.team-member img {
+    width: 30%;
+    border-radius: 40%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+}
+
+.team-member p {
+    color: #0f0f0f;
+    padding: 0 1.5rem 1.5rem;
+    line-height: 1.6;
+    text-align: center;
+}
+.team-member p:first-of-type {
+    color: #4a90e2;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.call-to-action {
+    background: linear-gradient(135deg, #2d3d33 0%, #4a90e2 100%);
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    margin-top: 3rem;
+}
+
+.call-to-action h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+    .call-to-action p{
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    background: white;
+    color: #2d3d33;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 768px) {
+    .team-grid {
+        
+        padding: 1rem;
+        gap: 1rem;
+    }
+    
+    .team-member img {
+        height: 250px;
+    }
+    
+    .team-member h3 {
+        font-size: 1.2rem;
+    }
+    .call-to-action {
+        padding: 3rem 1rem;
+    }
+
+    .call-to-action h2 {
+        font-size: 2rem;
+    }
+
+    .call-to-action p {
+        font-size: 1rem;
+    }
+    main {
+        margin-top: 0;
+    }
+    .about-us-banner {
+        margin-top: 0;
+        padding: 2rem 1rem;
+    }
+
+    .banner-text h2 {
+        font-size: 2rem;
+    }
+
+    .banner-text p {
+        font-size: 1rem;
+    }
+
+    .about-us-content {
+        margin: 2rem auto;
+        padding: 0 1rem;
+    }
+
+    .about-us-content h2 {
+        font-size: 2rem;
+    }
+
+    .about-us-content h3 {
+        font-size: 1.5rem;
+    }
+    .header-container {
+        margin: 0;
+        padding: 0.5rem;
+    }
+}
