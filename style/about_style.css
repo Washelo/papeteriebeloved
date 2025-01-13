@@ -1,9 +1,9 @@
 /* About Us Page Styles */
 .about-us-banner {
-    background: linear-gradient(rgba(45, 61, 51, 0.8), rgba(45, 61, 51, 0.8)), url('../images/about-banner.jpg');
+    background: linear-gradient(rgb(253, 253, 253), rgb(254, 254, 254)), url('../images/about-banner.jpg');
     background-size: cover;
     background-position: center;
-    color: white;
+    color: black;
     padding: 1rem 1rem;
     text-align: center;
 }
